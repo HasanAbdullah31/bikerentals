@@ -6,7 +6,7 @@ function init() {
     if (!bike_selected()) {
         $('.container').html(
             '<div class="block-heading"> \
-               <span>You must check out with a bike selection (click <a href="#">here</a> to visit your cart).</span> \
+               <span>You must check out with a bike selection (click <a href="./index.html">here</a> to visit your cart).</span> \
              </div>'
         );
     }
